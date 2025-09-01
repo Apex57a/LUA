@@ -21,13 +21,13 @@
   },
   "scripts": {
     "binder_revamped": {
-      "name": "Binder (Revamped)",
+      "name": "Binder",
       "version": "2.2.1",
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/binder.luac",
       "install_method": "direct",
       "destination_file": "moonloader/binder.luac",
       "detection_key": "moonloader/binder.luac",
-      "description": "The definitive, intelligent keybinder for commands and messages.",
+      "description": "Binder for Valrise.",
       "hash": "PASTE_SHA256_HASH_OF_BINDER.LUAC_HERE"
     },
     "sensifix": {
@@ -37,7 +37,7 @@
       "install_method": "direct",
       "destination_file": "moonloader/sensifix.luac",
       "detection_key": "moonloader/sensifix.luac",
-      "description": "A professional sensitivity manager for precise aiming with different weapons.",
+      "description": "sensitivity manager for precise aiming with different weapons.",
       "hash": "PASTE_SHA256_HASH_OF_SENSIFIX.LUAC_HERE"
     }
   }
