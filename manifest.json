@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "moonloader": {
+      "name": "MoonLoader",
+      "version": "v.026.5-beta",
+      "url": "https://github.com/Apex57a/LUA/raw/main/moonloader.zip",
+      "install_method": "zip"
+    },
+    "sampfuncs": {
+      "name": "SAMPFUNCS",
+      "version": "5.4.1-final",
+      "url": "https://github.com/Apex57a/LUA/raw/main/sampfuncs.zip",
+      "install_method": "zip"
+    }
+  },
+  "scripts": [
+    {
+      "id": "binder_revamped",
+      "name": "Binder (Revamped)",
+      "version": "2.2.1",
+      "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/binder.luac",
+      "install_method": "direct",
+      "destination_file": "moonloader/binder.luac"
+    },
+    {
+      "id": "sensifix",
+      "name": "Sensifix (Definitive)",
+      "version": "5.1.0",
+      "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/sensifix.luac",
+      "install_method": "direct",
+      "destination_file": "moonloader/sensifix.luac"
+    }
+  ]
+}
