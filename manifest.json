@@ -4,31 +4,41 @@
       "name": "MoonLoader",
       "version": "v.026.5-beta",
       "url": "https://github.com/Apex57a/LUA/raw/main/moonloader.zip",
-      "install_method": "zip"
+      "install_method": "zip",
+      "detection_key": "moonloader.asi",
+      "description": "The core framework required for all Lua scripts to run in SA-MP.",
+      "hash": "PASTE_SHA256_HASH_OF_MOONLOADER.ZIP_HERE"
     },
     "sampfuncs": {
       "name": "SAMPFUNCS",
       "version": "5.4.1-final",
       "url": "https://github.com/Apex57a/LUA/raw/main/sampfuncs.zip",
-      "install_method": "zip"
+      "install_method": "zip",
+      "detection_key": "SAMPFUNCS.asi",
+      "description": "A library that extends MoonLoader's capabilities for SA-MP.",
+      "hash": "PASTE_SHA256_HASH_OF_SAMPFUNCS.ZIP_HERE"
     }
   },
-  "scripts": [
-    {
-      "id": "binder_revamped",
+  "scripts": {
+    "binder_revamped": {
       "name": "Binder (Revamped)",
       "version": "2.2.1",
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/binder.luac",
       "install_method": "direct",
-      "destination_file": "moonloader/binder.luac"
+      "destination_file": "moonloader/binder.luac",
+      "detection_key": "moonloader/binder.luac",
+      "description": "The definitive, intelligent keybinder for commands and messages.",
+      "hash": "PASTE_SHA256_HASH_OF_BINDER.LUAC_HERE"
     },
-    {
-      "id": "sensifix",
+    "sensifix": {
       "name": "Sensifix (Definitive)",
       "version": "5.1.0",
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/sensifix.luac",
       "install_method": "direct",
-      "destination_file": "moonloader/sensifix.luac"
+      "destination_file": "moonloader/sensifix.luac",
+      "detection_key": "moonloader/sensifix.luac",
+      "description": "A professional sensitivity manager for precise aiming with different weapons.",
+      "hash": "PASTE_SHA256_HASH_OF_SENSIFIX.LUAC_HERE"
     }
-  ]
+  }
 }
