@@ -16,7 +16,7 @@
       "install_method": "zip",
       "detection_key": "SAMPFUNCS.asi",
       "description": "A library that extends MoonLoader's capabilities for SA-MP.",
-      "hash": "PASTE_SHA256_HASH_OF_SAMPFUNCS.ZIP_HERE"
+      "hash": "bc1cd6ed43061c136405205ff0ec553cb8733eff5ba4101fc67dda241a2a0bf2"
     }
   },
   "scripts": {
@@ -28,17 +28,17 @@
       "destination_file": "moonloader/binder.luac",
       "detection_key": "moonloader/binder.luac",
       "description": "Binder for Valrise.",
-      "hash": "PASTE_SHA256_HASH_OF_BINDER.LUAC_HERE"
+      "hash": "a05f01d8398cbced8126594c1047d467daa6b15c9f9afb9af88ec71bbb25dd48"
     },
     "sensifix": {
-      "name": "Sensifix (Definitive)",
+      "name": "Sensifix",
       "version": "5.1.0",
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/sensifix.luac",
       "install_method": "direct",
       "destination_file": "moonloader/sensifix.luac",
       "detection_key": "moonloader/sensifix.luac",
       "description": "sensitivity manager for precise aiming with different weapons.",
-      "hash": "PASTE_SHA256_HASH_OF_SENSIFIX.LUAC_HERE"
+      "hash": "c2defb888cb43516a8a9f6cc4ae8cf33a17efd396351f3e1657a2c288471f999"
     }
   }
 }
