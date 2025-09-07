@@ -22,7 +22,7 @@
   "scripts": {
     "binder_revamped": {
       "name": "Binder",
-      "version": "2.2.1",
+      "version": "2.2.0",
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/binder.luac",
       "install_method": "direct",
       "destination_file": "moonloader/binder.luac",
