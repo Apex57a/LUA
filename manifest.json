@@ -7,7 +7,7 @@
       "install_method": "zip",
       "detection_key": "moonloader.asi",
       "description": "The core framework required for all Lua scripts to run in SA-MP.",
-      "hash": "dc583a6d31e0aa0111a04101c7227ae27a0bcc3dceef4bb46a86ab77131db3b8"
+      "hash": "e9104b8fe3778043f2c9f4c5d688748080c468ec65fc4951b29b327708e05600"
     },
     "sampfuncs": {
       "name": "SAMPFUNCS",
