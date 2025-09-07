@@ -1,70 +1,62 @@
 {
-  "_comment": "Manifest for Lua Installer v1.0.0. All fields are now used by the application.",
-  
-  "installer": {
-    "_comment": "This section is for the installer's self-updating feature.",
-    "version": "1.0.0",
-    "url": "https://your-hosting-provider.com/path/to/Lua Installer.exe",
-    "hash": "sha256_hash_of_the_new_installer_executable"
+  "categories": {
+    "core": "Core Dependencies",
+    "pvp": "PVP Scripts",
+    "utility": "Utility Scripts"
   },
-
-  "dependencies": {
+  "packages": {
     "moonloader": {
       "name": "MoonLoader",
       "version": "v.026.6",
+      "category": "core",
       "url": "https://github.com/Apex57a/LUA/raw/refs/heads/main/Moonloader.zip",
       "hash": "0e307f19775a1ea9af179ba85df6ee0e2f11e446e89c3dea24a23c46c86a3e1b",
       "install_method": "zip",
       "detection_key": "moonloader.asi",
-      "description": "The core framework required for all Lua scripts to run in SA-MP.",
-      "files": [
-        "moonloader.asi",
-        "moonloader"
-      ],
+      "description": "The core framework required for all Lua scripts to run in SA-MP. This is the foundation for all other Lua mods.",
+      "files": ["moonloader.asi", "moonloader"],
       "changelog": "Updated to the latest version for improved stability."
     },
     "sampfuncs": {
       "name": "SAMPFUNCS",
       "version": "5.4.1-final",
+      "category": "core",
+      "requires": ["moonloader"],
       "url": "https://github.com/Apex57a/LUA/raw/main/sampfuncs.zip",
       "hash": "bc1cd6ed43061c136405205ff0ec553cb8733eff5ba4101fc67dda241a2a0bf2",
       "install_method": "zip",
       "detection_key": "SAMPFUNCS.asi",
-      "description": "A library that extends MoonLoader's capabilities for SA-MP.",
-      "files": [
-        "SAMPFUNCS.asi",
-        "SAMPFUNCS.dll",
-        "SAMPFUNCS_README.txt"
-      ]
-    }
-  },
-
-  "scripts": {
+      "description": "A library that extends MoonLoader's capabilities for SA-MP, required by many advanced scripts.",
+      "files": ["SAMPFUNCS.asi", "SAMPFUNCS.dll", "SAMPFUNCS_README.txt"]
+    },
     "binder_revamped": {
       "name": "Binder",
       "version": "2.2.0",
+      "category": "utility",
+      "requires": ["moonloader", "sampfuncs"],
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/binder.luac",
       "hash": "a05f01d8398cbced8126594c1047d467daa6b15c9f9afb9af88ec71bbb25dd48",
       "install_method": "direct",
       "destination_file": "moonloader/binder.luac",
       "detection_key": "moonloader/binder.luac",
-      "description": "Binder for Valrise.",
-      "files": [
-        "moonloader/binder.luac"
-      ]
+      "description": "An advanced, customizable binder for Valrise that allows you to set up complex macros and chat commands.",
+      "files": ["moonloader/binder.luac"]
     },
     "sensifix": {
       "name": "Sensifix",
       "version": "5.1.0",
+      "category": "pvp",
+      "requires": ["moonloader", "sampfuncs"],
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/sensifix.luac",
       "hash": "c2defb888cb43516a8a9f6cc4ae8cf33a17efd396351f3e1657a2c288471f999",
       "install_method": "direct",
       "destination_file": "moonloader/sensifix.luac",
       "detection_key": "moonloader/sensifix.luac",
-      "description": "sensitivity manager for precise aiming with different weapons.",
-      "files": [
-        "moonloader/sensifix.luac"
-      ]
+      "description": "A comprehensive sensitivity manager for precise aiming with different weapons. Essential for competitive players.",
+      "files": ["moonloader/sensifix.luac"],
+      "media": {
+        "image": "https://i.imgur.com/ABCMND2.png"
+      }
     }
   }
 }
