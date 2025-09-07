@@ -3,7 +3,7 @@
     "moonloader": {
       "name": "MoonLoader",
       "version": "v.026.6-beta",
-      "url": "https://github.com/Apex57a/LUA/raw/main/moonloader.zip",
+      "url": "https://github.com/Apex57a/LUA/raw/refs/heads/main/Moonloader.7z",
       "install_method": "zip",
       "detection_key": "moonloader.asi",
       "description": "The core framework required for all Lua scripts to run in SA-MP.",
