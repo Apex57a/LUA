@@ -55,7 +55,7 @@
       "description": "A sensitivity manager for precise aiming with different weapons.",
       "files": ["moonloader/sensifix.luac"],
       "media": {
-        "image": "none"
+        "image": ""
       }
     }
   }
