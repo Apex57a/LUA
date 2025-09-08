@@ -1,6 +1,6 @@
 {
   "installer": {
-    "version": "1.1",
+    "version": "1.0",
     "url": "https://your-hosting-provider.com/path/to/new_installer.exe",
     "hash": "sha256_hash_of_the_new_installer_executable"
   },
@@ -36,7 +36,7 @@
     },
     "binder_revamped": {
       "name": "Binder",
-      "version": "2.2.0",
+      "version": "V2.0",
       "category": "utility",
       "requires": ["moonloader", "sampfuncs"],
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/binder.luac",
@@ -49,7 +49,7 @@
     },
     "sensifix": {
       "name": "Sensifix",
-      "version": "5.1.0",
+      "version": "V2.0",
       "category": "pvp",
       "requires": ["moonloader", "sampfuncs"],
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/sensifix.luac",
