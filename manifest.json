@@ -7,7 +7,7 @@
   "packages": {
     "moonloader": {
       "name": "MoonLoader",
-      "version": "v.026",
+      "version": "v.027",
       "category": "core",
       "url": "https://github.com/Apex57a/LUA/raw/refs/heads/main/Moonloader.zip",
       "hash": "0e307f19775a1ea9af179ba85df6ee0e2f11e446e89c3dea24a23c46c86a3e1b",
@@ -39,7 +39,7 @@
       "install_method": "direct",
       "destination_file": "moonloader/binder.luac",
       "detection_key": "moonloader/binder.luac",
-      "description": "An advanced, customizable binder for Valrise that allows you to set up complex macros and chat commands.",
+      "description": "An advanced, customizable binder for Valrise.",
       "files": ["moonloader/binder.luac"]
     },
     "sensifix": {
@@ -52,10 +52,10 @@
       "install_method": "direct",
       "destination_file": "moonloader/sensifix.luac",
       "detection_key": "moonloader/sensifix.luac",
-      "description": "A comprehensive sensitivity manager for precise aiming with different weapons. Essential for competitive players.",
+      "description": "A sensitivity manager for precise aiming with different weapons.",
       "files": ["moonloader/sensifix.luac"],
       "media": {
-        "image": "https://imagehostingforlua.neocities.org/Grand%20Theft%20Auto%20%20San%20Andreas%20Screenshot%202025.09.07%20-%2022.02.21.17.png"
+        "image": "none"
       }
     }
   }
