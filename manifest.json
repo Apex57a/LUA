@@ -1,4 +1,9 @@
 {
+  "installer": {
+    "version": "1.1",
+    "url": "https://your-hosting-provider.com/path/to/new_installer.exe",
+    "hash": "sha256_hash_of_the_new_installer_executable"
+  },
   "categories": {
     "core": "Core Dependencies",
     "pvp": "PVP Scripts",
@@ -7,7 +12,7 @@
   "packages": {
     "moonloader": {
       "name": "MoonLoader",
-      "version": "v.027",
+      "version": "v.026.6",
       "category": "core",
       "url": "https://github.com/Apex57a/LUA/raw/refs/heads/main/Moonloader.zip",
       "hash": "0e307f19775a1ea9af179ba85df6ee0e2f11e446e89c3dea24a23c46c86a3e1b",
@@ -31,7 +36,7 @@
     },
     "binder_revamped": {
       "name": "Binder",
-      "version": "V2.0",
+      "version": "2.2.0",
       "category": "utility",
       "requires": ["moonloader", "sampfuncs"],
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/binder.luac",
@@ -39,12 +44,12 @@
       "install_method": "direct",
       "destination_file": "moonloader/binder.luac",
       "detection_key": "moonloader/binder.luac",
-      "description": "An advanced, customizable binder for Valrise.",
+      "description": "An advanced, customizable binder for Valrise that allows you to set up complex macros and chat commands.",
       "files": ["moonloader/binder.luac"]
     },
     "sensifix": {
       "name": "Sensifix",
-      "version": "V2.0",
+      "version": "5.1.0",
       "category": "pvp",
       "requires": ["moonloader", "sampfuncs"],
       "url": "https://raw.githubusercontent.com/Apex57a/LUA/main/sensifix.luac",
@@ -52,10 +57,10 @@
       "install_method": "direct",
       "destination_file": "moonloader/sensifix.luac",
       "detection_key": "moonloader/sensifix.luac",
-      "description": "A sensitivity manager for precise aiming with different weapons.",
+      "description": "A comprehensive sensitivity manager for precise aiming with different weapons. Essential for competitive players.",
       "files": ["moonloader/sensifix.luac"],
       "media": {
-        "image": ""
+        "image": "https://i.imgur.com/ABCMND2.png"
       }
     }
   }
