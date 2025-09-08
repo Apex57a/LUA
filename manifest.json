@@ -46,6 +46,8 @@
       "detection_key": "moonloader/binder.luac",
       "description": "An advanced, customizable binder for Valrise that allows you to set up complex macros and chat commands.",
       "files": ["moonloader/binder.luac"]
+      "media": {
+        "image": "https://imagehostingforlua.neocities.org/Binder.png"
     },
     "sensifix": {
       "name": "Sensifix",
@@ -60,7 +62,7 @@
       "description": "A comprehensive sensitivity manager for precise aiming with different weapons. Essential for competitive players.",
       "files": ["moonloader/sensifix.luac"],
       "media": {
-        "image": "https://i.imgur.com/ABCMND2.png"
+        "image": "https://imagehostingforlua.neocities.org/Sensifix.png"
       }
     }
   }
